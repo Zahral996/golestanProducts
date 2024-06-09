@@ -1,0 +1,14 @@
+@keyframes teaBox {
+    from {top: -300px; opacity: 0.2;}
+    to {top: 0px; opacity: 1;} 
+}
+
+@keyframes textanime {
+    from {right:-300px; opacity: 0.2;}
+    to {right:0px; opacity: 1;}  
+}
+
+@keyframes staticsanime {
+    from{transform: scale(0%);}
+    to{transform: scale(100%);}
+}

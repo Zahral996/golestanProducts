@@ -1,0 +1,25 @@
+@mixin btn(){
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: solid, #c5c5c5;
+    background-color: white;
+    color: #898989;
+    &:hover{
+        background-color: #FF0000;
+        color: white;
+        cursor: pointer;
+            }
+}
+
+@mixin title(){
+    color: #FF0000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@mixin text(){
+    color: #898989;
+    line-height: 33px;
+    text-align: justify;
+    padding: 25px 0;
+}
